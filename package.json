@@ -5,7 +5,8 @@
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "heroku-postbuild": "vite build"
   },
   "dependencies": {
     "three": "^0.128.0",
