@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "vite --host",
     "build": "vite build",
     "serve": "vite preview",
     "heroku-postbuild": "vite build"
@@ -13,3 +13,5 @@
     "vite": "^2.3.3"
   }
 }
+
+
